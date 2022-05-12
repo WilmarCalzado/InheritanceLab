@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Wizards and Warlocks");
+        System.out.println("Wizards and Warlocks\n");
         /**
          * Create a Wizard Class which Inherits the Properties of Character Class.
          * eg. Wizard.java
@@ -40,9 +40,18 @@ public class App {
          * Merlin.firestorm(Saruman); // Saruman HP Deducted
          * Warlock.recover() // Saruman HP and MP increases
          */
-        Wizard Merlin = new Wizard("Merlin");
-        Warlock Saruman = new Warlock("Saruman");
-        Merlin.fireStorm(Saruman);
+        Wizard Draco = new Wizard("Draco");
+        Warlock Glinda = new Warlock("Glinda");
+        Draco.fireStorm(Draco);
+        Glinda.Episkey(Glinda);
+        Draco.fireStorm(Glinda);
+        Glinda.Episkey(Glinda);
+        Draco.fireStorm(Glinda);
+        Draco.moonlight(Glinda);
+        Draco.fireStorm(Glinda);
+        Draco.fireStorm(Glinda);
+        Glinda.Episkey(Glinda);
+        Draco.fireStorm(Glinda);
 
     }
 }
